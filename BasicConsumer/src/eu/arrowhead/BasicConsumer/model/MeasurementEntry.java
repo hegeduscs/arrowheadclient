@@ -9,7 +9,7 @@
 
 package eu.arrowhead.BasicConsumer.model;
 
-//SenML format - expected response from the Provider client
+//SenML format - expected response from the Provider client (Is a provieder client the Consumer?)
 public class MeasurementEntry {
 
   private String n;

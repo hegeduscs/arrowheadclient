@@ -9,20 +9,20 @@
 
 package eu.arrowhead.BasicConsumer;
 
-import com.google.gson.Gson;
+import com.google.gson.Gson; //A Java serialization/deserialization library to convert Java Objects into JSON and back
 import eu.arrowhead.BasicConsumer.model.ArrowheadSystem;
 import eu.arrowhead.BasicConsumer.model.OrchestrationResponse;
 import eu.arrowhead.BasicConsumer.model.TemperatureReadout;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Properties;
+import java.io.BufferedReader;  // Reads text from a character-input stream, buffering characters so as to provide for the efficient reading of characters, arrays, and lines.
+import java.io.File;  // An abstract representation of file and directory pathnames.
+import java.io.FileInputStream; // contains some other input stream, which it uses as its basic source of data, possibly transforming the data along the way or providing additional functionality.
+import java.io.InputStreamReader; // An InputStreamReader is a bridge from byte streams to character streams: It reads bytes and decodes them into characters using a specified charset.
+import java.io.OutputStreamWriter;  // This class is the superclass of all classes that filter output streams.
+import java.net.HttpURLConnection;  //A URLConnection with support for HTTP-specific features.
+import java.net.URL;  // Class URL represents a Uniform Resource Locator, a pointer to a "resource" on the World Wide Web.
+import java.util.ArrayList; // Resizable-array implementation of the List interface.
+import java.util.List;  // An ordered collection (also known as a sequence). (Interface rather than a class)
+import java.util.Properties;  // The Properties class represents a persistent set of properties.
 import org.json.JSONException;
 import org.json.JSONObject;
 
