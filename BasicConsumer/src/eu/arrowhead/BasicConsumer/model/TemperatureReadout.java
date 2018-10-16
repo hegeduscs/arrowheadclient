@@ -9,8 +9,8 @@
 
 package eu.arrowhead.BasicConsumer.model;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.ArrayList;// An ordered collection (also known as a sequence). (Interface rather than a class)
+import java.util.List;  // The Properties class represents a persistent set of properties.
 
 //SenML format - expected response from the Provider client
 public class TemperatureReadout {

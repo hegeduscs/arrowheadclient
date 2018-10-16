@@ -9,10 +9,10 @@
 
 package eu.arrowhead.BasicConsumer.model;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.ArrayList; // Resizable-array implementation of the List interface.
+import java.util.HashMap; //Hash table based implementation of the Map interface.
+import java.util.List;  // An ordered collection (also known as a sequence). (Interface rather than a class)
+import java.util.Map; // An object that maps keys to values. (Interface rather than class)
 
 public class ArrowheadService {
 
